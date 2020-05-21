@@ -8,7 +8,7 @@
         "expires ": 7200
     },
     "database": {
-        "db": "denojs",
+        "db": "newapi",
         "hostname": "127.0.0.1",
         "username": "root",
         "password": "root",
