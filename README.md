@@ -34,4 +34,4 @@ nginx负载2个服务<br/>
 每个用户10000次的请求<br/>
 操作mysql数据库做分页查询，每次请求查询2次<br/>
 得出的结论<br/>
-<p><img src="https://github.com/AreaDeno/denojs/blob/master/public/test.png" width="200" /></p>
+<p><img src="https://github.com/AreaDeno/denojs/blob/master/public/test.png" width="500" /></p>
