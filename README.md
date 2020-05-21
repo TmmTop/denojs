@@ -1,7 +1,6 @@
 #### denojs
 deno开发的微服务库
-<p>
-<img src="https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg" width="200" /></p>
+<p><img src="https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg" width="200" /></p>
 
 [DenoJS](https://areadeno.github.io/denojs/ "DenoJS") 
 
@@ -27,3 +26,12 @@ deno run   --allow-net --allow-read main.ts
 3. 消息队列
 4. 计划任务
 5. 更多...
+
+#### 测试
+nginx负载2个服务<br/>
+在window系统下使用ab测试 <br/>
+模拟1000个用户<br/>
+每个用户10000次的请求<br/>
+操作mysql数据库做分页查询，每次请求查询2次<br/>
+得出的结论<br/>
+<p><img src="https://github.com/AreaDeno/denojs/blob/master/public/test.png" width="200" /></p>
