@@ -1,7 +1,8 @@
 #### denojs
 deno开发的微服务库
-![[DenoJS](https://areadeno.github.io/denojs/ "DenoJS") ](https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg) 
+<img src="https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg" width="200" />
 
+[DenoJS](https://areadeno.github.io/denojs/ "DenoJS") 
 
 #### 快速启动
 deno run   --allow-net --allow-read main.ts
