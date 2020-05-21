@@ -1,0 +1,64 @@
+{
+    "filesport": 4600,
+    "redis": {
+        "hostname": "127.0.0.1",
+        "port": 6379,
+        "username": "",
+        "password": "",
+        "expires ": 7200
+    },
+    "database": {
+        "db": "newapi",
+        "hostname": "127.0.0.1",
+        "username": "root",
+        "password": "root",
+        "poolSize": 3,
+        "port": 3306
+    },
+    "server": [
+        {
+            "id": 1,
+            "hostname": "127.0.0.1",
+            "port": 10001,
+            "desc": "艾欧尼亚",
+            "queue": {}
+        },
+        {
+            "id": 2,
+            "hostname": "127.0.0.1",
+            "port": 10002,
+            "desc": "黑色玫瑰",
+            "queue": {}
+        }
+    ],
+    "route": [
+        {
+            "id": 1,
+            "method": "get",
+            "url": "/menu/index",
+            "headers": [],
+            "desc": "菜单列表"
+        },
+        {
+            "id": 2,
+            "method": "post",
+            "url": "/menu/add",
+            "headers": [],
+            "desc": "添加菜单"
+        },
+        {
+            "id": 3,
+            "method": "post",
+            "url": "/menu/edit",
+            "headers": [],
+            "desc": "编辑菜单"
+        },
+        {
+            "id": 4,
+            "method": "post",
+            "url": "/menu/del",
+            "headers": [],
+            "desc": "删除菜单"
+        }
+    ]
+}
