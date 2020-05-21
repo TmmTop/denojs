@@ -1,7 +1,7 @@
 #### denojs
 deno开发的微服务库
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif) 
-[DenoJS](https://areadeno.github.io/denojs/ "DenoJS") 
+![[DenoJS](https://areadeno.github.io/denojs/ "DenoJS") ](https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg) 
+
 
 #### 快速启动
 deno run   --allow-net --allow-read main.ts
