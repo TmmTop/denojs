@@ -1,20 +1,9 @@
 import { ink, o } from "./deps.ts";
 import server from "./router/index.ts";
-import { main, FileServerArgs } from "./router/fileServer.ts";
 import { config } from "./config/index.ts";
 const startAllServer = async () => {
   try {
-    let FileServer: FileServerArgs;
     let mainConfig = JSON.parse(await config()).server;
-    let filesport = JSON.parse(await config()).filesport;
-
-    // FileServer._ = ["0,0,0,0"];
-    // FileServer.p = 3306;
-    // FileServer.port = filesport;
-    // FileServer.cors = true;
-    // FileServer.h = true;
-    // FileServer.help = true;
-    // main();
     mainConfig.forEach(async (main: any) => {
       const http = await server();
       await http.start({ port: main.port, hostname: main.hostname });

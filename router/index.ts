@@ -25,17 +25,8 @@ export default async () => {
     }
   );
   app.group("/admin")
-    .add("GET", "/menu/index", (res) => {
+    .add("GET", "/denojs/index", (res) => {
       return menu.index();
-    })
-    .add("POcST", "/menu/add", () => {
-      return "获取菜单";
-    })
-    .add("POST", "/menu/edit", () => {
-      return "获取菜单";
-    })
-    .add("POST", "/menu/del", () => {
-      return "获取菜单";
     });
   return app;
 };
