@@ -1,6 +1,7 @@
 #### denojs
 deno开发的微服务库
-<img src="https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg" width="200" />
+<p>
+<img src="https://github.com/AreaDeno/denojs/blob/master/public/logo.jpg" width="200" /></p>
 
 [DenoJS](https://areadeno.github.io/denojs/ "DenoJS") 
 
